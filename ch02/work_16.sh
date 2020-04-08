@@ -1,0 +1,1 @@
+split -l $(expr $(wc -l popular-names.txt | awk '{print $1}') / 5) popular-names.txt split.
